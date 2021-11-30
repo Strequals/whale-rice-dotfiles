@@ -1,0 +1,26 @@
+[global_config]
+  borderless = True
+[keybindings]
+[profiles]
+  [[default]]
+    background_color = "#243435"
+    cursor_blink = False
+    cursor_color = "#aaaaaa"
+    font = Inconsolata Medium 12
+    foreground_color = "#d4e7d4"
+    show_titlebar = False
+    scrollbar_position = hidden
+    palette = "#757575:#825d4d:#728c62:#ada16d:#4d7b82:#8a7267:#729494:#e0e0e0:#8a8a8a:#cf937a:#98d9aa:#fae79d:#7ac3cf:#d6b2a1:#ade0e0:#e0e0e0"
+    use_custom_command = True
+    custom_command = /bin/whaleshell
+    use_system_font = False
+[layouts]
+  [[default]]
+    [[[window0]]]
+      type = Window
+      parent = ""
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+      profile = default
+[plugins]
