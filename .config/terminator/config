@@ -4,6 +4,8 @@
 [profiles]
   [[default]]
     background_color = "#243435"
+    background_darkness = 0.9
+    background_type = transparent
     cursor_blink = False
     cursor_color = "#aaaaaa"
     font = Inconsolata Medium 12
